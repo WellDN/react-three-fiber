@@ -33,7 +33,7 @@ export default function App() {
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
       <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
+      <Box position={[1.2, 0, 0]}/*there's to box positions, this duplica the box*/ /> 
     </Canvas>
   </body>
   )
